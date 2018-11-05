@@ -1,5 +1,5 @@
 html {
-    align: auto;
+    box-align: auto;
 }
 p, a {
     font-family: 'Exo 2', sans-serif;

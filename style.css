@@ -5,100 +5,61 @@ p, a {
     font-family: 'Exo 2', sans-serif;
 }
 body {
-    background: url(Eriri.jpg);
+    background: #000 url(Eriri.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     background-size: 150%;
 }
-a:visited, a:link {
+#btext {
     color: white;
     text-decoration: none;
-}
-.avatar {
-    border-radius: 50%;
-    max-width: 128px;   
-    border: 12px solid pink;
-}
-.buttonosu {
-    background-color: #cc5288;
-    border-radius: 12px;
-    border: none;
-    padding: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-}
-.buttonkitsu {
-    background-color: #f75239;
-    border-radius: 12px;
-    border: none;
-    padding: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-}
-.buttonyoutube {
-    background-color: red;
-    border-radius: 12px;
-    border: none;
-    padding: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-}
-.buttontwitch {
-    background-color: #6441a4;
-    border-radius: 12px;
-    border: none;
-    padding: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-}
-.buttondiscord {
-    background-color: #7289DA;
-    border-radius: 12px;
-    border: none;
-    padding: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-}
-.buttongitlab {
-    background-color: #fc6d26;
-    border-radius: 12px;
-    border: none;
-    padding: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-}
-.buttongithub {
-    background-color: #24292e;
-    border-radius: 12px;
-    border: none;
-    padding: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
 }
 .box {
     background: rgba(255,255,255,0.8);
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-right: 20%;
     margin-left: 20%;
 }
-.align {
+.align1 {
     margin: 12%;
+}
+.avatar {
+    border-radius: 50%;
+    max-width: 128px;   
+    border: 12px solid rgba(255,255,255,0.8);
+}
+.button{
+    border-radius: 12px;
+    border: none;
+    padding: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 12px;
+}
+#buttonosu {
+    background-color: #cc5288;
+}
+#buttonkitsu {
+    background-color: #f75239;
+}
+#buttonyoutube {
+    background-color: red;
+}
+#buttontwitch {
+    background-color: #6441a4;
+}
+#buttondiscord {
+    background-color: #7289DA;
+}
+#buttongitlab {
+    background-color: #fc6d26;
+}
+#buttongithub {
+    background-color: #24292e;
 }

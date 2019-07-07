@@ -16,50 +16,72 @@ body {
     text-decoration: none;
 }
 .box {
-    background: rgba(255,255,255,0.8);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
+    background: rgba(255,255,255,0.960);
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-right: 20%;
     margin-left: 20%;
 }
-.align1 {
-    margin: 12%;
-}
 .avatar {
-    border-radius: 50%;
-    max-width: 128px;   
-    border: 12px solid rgba(255,255,255,0.8);
+    /*border-radius: 50%;*/
+    max-width: 256px;
+	background-color: #fff;
+    border: 4px solid #fff;
 }
 .button{
-    border-radius: 12px;
+    border-radius: 0px;
     border: none;
+	margin-right: -2px;
+	margin-left: -2px;
     padding: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-    margin-bottom: 12px;
+    padding-right: 14px;
+    padding-left: 14px;
 }
+.button:hover {
+    border-radius: 0px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
 #buttonosu {
     background-color: #cc5288;
+}
+#buttonosu:hover {
+    background-color: #e0639a;
 }
 #buttonkitsu {
     background-color: #f75239;
 }
+#buttonkitsu:hover {
+    background-color: #fc654e;
+}
 #buttonyoutube {
-    background-color: red;
+    background-color: #ff0000;
+}
+#buttonyoutube:hover {
+    background-color: #ff3d3d;
 }
 #buttontwitch {
     background-color: #6441a4;
 }
+#buttontwitch:hover {
+    background-color: #a683e6;
+}
 #buttondiscord {
     background-color: #7289DA;
+}
+#buttondiscord:hover {
+    background-color: #93a7ed;
 }
 #buttongitlab {
     background-color: #fc6d26;
 }
+#buttongitlab:hover {
+    background-color: #ff9a69;
+}
 #buttongithub {
     background-color: #24292e;
+}
+#buttongithub:hover {
+    background-color: #565a5e;
 }
